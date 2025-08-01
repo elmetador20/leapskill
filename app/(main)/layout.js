@@ -1,7 +1,7 @@
 import React from 'react'
 
 const MainLayout = ({children}) => {
-//redirect user after onboarding
+//redirect user to onboarding
 
 
   return (
