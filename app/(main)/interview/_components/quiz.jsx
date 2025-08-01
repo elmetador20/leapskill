@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Quiz } from "../_components/quiz";
+import QuizComponent from "../_components/quiz";
 
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
