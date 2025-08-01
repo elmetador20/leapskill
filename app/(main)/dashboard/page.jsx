@@ -8,7 +8,7 @@ const IndustryInsights = async () => {
     }
   return (
     <div>
-      
+       industry insight page
     </div>
   )
 }
