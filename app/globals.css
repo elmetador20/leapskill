@@ -41,42 +41,45 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+
 }
 
-:root {
+ :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+ --background: #ffffff;
+  --foreground: #2a2a2a;
+  --card: #ffffff;
+  --card-foreground: #2a2a2a;
+  --popover: #ffffff;
+  --popover-foreground: #2a2a2a;
+  --primary: #343434;
+  --primary-foreground: #fcfcfc;
+  --secondary: #f7f7f7;
+  --secondary-foreground: #343434;
+  --muted: #f7f7f7;
+  --muted-foreground: #8d8d8d;
+  --accent: #f7f7f7;
+  --accent-foreground: #343434;
+  --destructive: #f15b2a;
+  --border: #ebebeb;
+  --input: #ebebeb;
+  --ring: #b5b5b5;
+  --chart-1: #dd8d49;
+  --chart-2: #4e7fd9;
+  --chart-3: #495b9d;
+  --chart-4: #d1cb4b;
+  --chart-5: #cfad4a;
+  --sidebar: #fcfcfc;
+  --sidebar-foreground: #2a2a2a;
+  --sidebar-primary: #343434;
+  --sidebar-primary-foreground: #fcfcfc;
+  --sidebar-accent: #f7f7f7;
+  --sidebar-accent-foreground: #343434;
+  --sidebar-border: #ebebeb;
+  --sidebar-ring: #b5b5b5;
 }
+
+
 
 .dark {
   --background: oklch(0.145 0 0);
@@ -120,6 +123,25 @@
     @apply bg-background text-foreground;
   }
 }
+/* styles/pdf-safe.css */
+.pdf-export {
+  --background: #ffffff;
+  --foreground: #000000;
+  --muted: #f4f4f5;
+  --muted-foreground: #333333;
+  --card: #ffffff;
+  --card-foreground: #000000;
+  --border: #e5e7eb;
+  --input: #e5e7eb;
+  --primary: #1f2937;
+  --primary-foreground: #ffffff;
+  --secondary: #f3f4f6;
+  --secondary-foreground: #111827;
+  --accent: #f3f4f6;
+  --accent-foreground: #111827;
+}
+
+
 .grid-background {
   position: fixed;
   top: 0;
