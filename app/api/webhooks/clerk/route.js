@@ -1,4 +1,5 @@
-import { db } from '@/lib/helper';
+import { db } from '@/lib/db'; // assuming you have lib/db.js or lib/db.ts
+
 import { headers } from 'next/headers';
 
 export async function POST(req) {
