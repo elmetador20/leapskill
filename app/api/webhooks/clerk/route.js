@@ -1,4 +1,4 @@
-import { db } from '@/lib/db'; // assuming you have lib/db.js or lib/db.ts
+import { db } from '@/lib/prisma';
 
 import { headers } from 'next/headers';
 
