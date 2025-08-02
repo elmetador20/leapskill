@@ -46,9 +46,9 @@ const HeroSection = () => {
               Get Started
             </Button>
           </Link>
-          <Link href="#">
+          <Link href="https://youtu.be/GLk8IfRkXG8?si=d5gkYv0Gfh0mY7ZL">
             <Button size="lg" variant="outline" className="px-8">
-              Watch Demo
+              Know more about Us
             </Button>
           </Link>
         </div>
